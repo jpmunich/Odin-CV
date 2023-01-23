@@ -10,3 +10,57 @@
     height: 125px;
     background-color: rgb(191, 127, 216);
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 50px;
+    width: 80%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+}
+
+.form > * {
+    width: 80%;
+}
+
+.CV-container-minus-header {
+    display: flex;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 80%;
+}
+
+.cv-header {
+    height: 50px;
+    margin-top: 15px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 80%;
+    width: 80%;
+    background-color: rgb(202, 202, 202);
+}
+
+.CV-Body {
+    height: 200px;
+    width: 60%;
+    background-color: rgb(156, 156, 156);
+}
+
+.CV-details {
+    width: 40%;
+    background-color: rgb(128, 128, 128);
+}
+
+.cv-details-img {
+    height: 225px;
+    width: 90%;
+    background-color: rgb(94, 94, 94);
+    margin-left: 5%;
+}
